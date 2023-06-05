@@ -24,22 +24,47 @@
             font-size: 80pt;
         }
         h2 {
-            font-size: 40pt;
+            font-size: 50pt;
         }
-        ul {
-            list-style-type: none;
+        dl {
+            font-size: 18pt;
+            display: grid;
+            grid-template-columns: max-content auto;
+            grid-gap: 10px;
+        }
+
+        dt {
+            font-weight: bold;
+            grid-column-start: 1;
+        }
+
+        dd {
+            grid-column-start: 2;
         }
     </style>
 </head>
 <h1>Counter-Strike 2</h1>
 <h2>Computer requirements</h2>
-<ul>
-    <li><strong>OS</strong>: Windows 10 64-bit.</li>
-    <li><strong>Processor</strong>: Intel Core i5-2500K or AMD FX-6300.</li>
-    <li><strong>Memory</strong>: 8GB RAM.</li>
-    <li><strong>Graphics</strong>: NVIDIA GeForce GTX 660 or AMD Radeon HD 7850.</li>
-    <li><strong>DirectX</strong>: Version 11.</li>
-    <li><strong>Network</strong>: Broadband Internet connection.</li>
-    <li><strong>Storage</strong>: 50GB available space.</li>
-</ul>
+<dl>
+    <dt>OS</dt>
+    <dd>Windows 10 64-bit</dd>
+
+    <dt>Processor</dt>
+    <dd>Intel Core i5-2500K or AMD FX-6300</dd>
+
+    <dt>Memory</dt>
+    <dd>8GB RAM</dd>
+
+    <dt>Graphics</dt>
+    <dd>NVIDIA GeForce GTX 660 or AMD Radeon HD 7850</dd>
+
+    <dt>DirectX</dt>
+    <dd>Version 11</dd>
+
+    <dt>Network</dt>
+    <dd>Broadband Internet connection</dd>
+
+    <dt>Storage</dt>
+    <dd>50GB available space</dd>
+</dl>
 </html>
